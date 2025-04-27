@@ -1,6 +1,6 @@
 p{
     padding: 5px 5px;
-    color: rgb(202, 202, 202);
+    color: rgb(232, 232, 232);
     font-size: 20px;
     font-family: sans-serif;
 }
@@ -11,7 +11,10 @@ font-family: sans-serif;
 height: 40px;
 }
 
-
+a:link {color: aqua;}
+a:visited{color:aquamarine;}
+a:hover{color: rgb(0, 255, 64);}
+a:active{color: cyan;}
 .title{
     margin-right: auto;
 }
@@ -27,6 +30,7 @@ body{
     background-attachment: fixed;
     backdrop-filter: blur(15px);
     background-color: rgba(10, 10, 10, 0.4);    
+
 }
 .background-image{
     text-align: center;
