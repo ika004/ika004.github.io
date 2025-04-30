@@ -11,10 +11,10 @@ font-family: sans-serif;
 height: 40px;
 }
 
-a:link {color: aqua;}
-a:visited{color:aquamarine;}
+a:link {color: rgb(2, 121, 121);}
+a:visited{color:rgb(3, 143, 96);}
 a:hover{color: rgb(0, 255, 64);}
-a:active{color: cyan;}
+a:active{color: rgb(1, 50, 90);}
 .title{
     margin-right: auto;
 }
@@ -29,7 +29,10 @@ body{
     background-size: cover;
     background-attachment: fixed;
     backdrop-filter: blur(15px);
-    background-color: rgba(10, 10, 10, 0.4);    
+    background-color: rgba(10, 10, 10, 0.4);
+    min-height: 100vh; /* 最小の高さをビューポートの高さに設定 */
+    overflow-x: hidden;  /* 水平スクロールバーを非表示にする (必要ならね)*/
+    margin: 0; /* body のデフォルトマージンを削除 */  
 
 }
 .background-image{
